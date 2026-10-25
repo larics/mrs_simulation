@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IMAGE_NAME=${1:-mrs_2d_sim:humble}
-CONTAINER_NAME=${2:-mrs_project_1}
+CONTAINER_NAME=${2:-mrs_stage_simulation}
 
 
 # Hook to the current SSH_AUTH_LOCK - since it changes
